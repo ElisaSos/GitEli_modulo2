@@ -1,0 +1,38 @@
+body{
+    margin: 40px;
+}
+.Conteiner{
+    display: flex;
+    gap: 20px;
+
+}
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #534b4b;
+    background-color: #968383;
+
+}
+.content-box{
+    box-sizing: content-box; 
+    background-color: #e3f2fd;
+}
+.border-box{
+    box-sizing: border-box;
+    background-color: #ffebee;
+}
+.medidas{
+    font-size: 14px;
+    color: #968383;
+    margin-top: 5px;
+}
+
+.h2{
+    color: #333;
+    font-size: 18px;
+}
+
+.resalto{
+    background-color: rgb(193, 170, 214);
+    padding: 2px 5px;
+}

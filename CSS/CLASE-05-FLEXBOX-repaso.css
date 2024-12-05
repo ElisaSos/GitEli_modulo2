@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "DM Serif Text", serif;
+  }
+
+  /*Header*/
+  header{
+    background-color: rgb(110, 170, 102);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+ /*Contenedor principal de tarjetas*/
+ .Amigurumis-container{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ /*Estilos de cada tarjeta*/
+.crochet-card{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    max-width: 450px;
+    box-shadow: 0 2px 5px  rgba(0,0,0.2);
+    overflow: hidden;
+}
+
+.crochet-card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.crochet-info{
+    padding: 15px;
+
+}
+
+.crochet-info h2{
+    color: rgb(110, 170, 102);
+}
+.crochet-info p{
+    color: #333;
+    line-height: 1.5;
+}
